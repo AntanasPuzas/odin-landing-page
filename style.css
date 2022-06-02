@@ -1,9 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
+    overflow: hidden;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .header,
@@ -15,6 +17,8 @@ body {
 
 .header {
     height: 50px;
+    width: 100%;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +27,11 @@ body {
 .header-logo {
     font-size: 24px;
     font-weight: 700;
+    margin-left: 15vw;
+}
+
+.header-links {
+    margin-right: 15vw;
 }
 
 ul {
@@ -36,6 +45,18 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    padding: 150px 15vw;
+    gap: 48px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero-title {
@@ -57,7 +78,14 @@ button,
 button {
     border: none;
     border-radius: 5px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding: 0;
+}
+
+.hero-button {
+    width: 125px;
+    height: 30px;
+    margin-top: 15px;
 }
 
 .action {
@@ -92,4 +120,9 @@ button {
 .quote-text {
     font-style: italic;
     color: #1F2937;
+}
+
+.footer {
+    width: 100vw;
+    margin-top: auto;
 }
