@@ -49,8 +49,10 @@ a {
 
 .hero {
     display: flex;
-    padding: 150px 15vw;
+    padding: 150px 0;
     gap: 48px;
+    width: 100vw;
+    justify-content: center;
 }
 
 .hero-text {
@@ -159,14 +161,18 @@ button {
     font-weight: 600;
     font-size: 24px;
 }
+
 .action-button {
     border: solid;
     border-color: #F9FAF8;
     border-width: 2px;
-    width: 
 }
 
 .footer {
     width: 100vw;
     margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
 }
