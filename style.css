@@ -88,6 +88,29 @@ button {
     margin-top: 15px;
 }
 
+.information {
+    width: 70vw;
+    margin-bottom: 150px;
+}
+
+.information-title {
+    text-align: center;
+    margin: 55px 0 55px 0;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    text-align: center;
+}
+
 .action {
     color: #F9FAF8
 }
